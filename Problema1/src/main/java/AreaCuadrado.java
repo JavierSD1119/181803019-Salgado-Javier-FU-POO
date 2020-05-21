@@ -6,11 +6,9 @@ public class AreaCuadrado
     {
         Scanner leer=new Scanner(System.in);
         
-        System.out.println("Ingresa el lado 1: ");
-        double l1=leer.nextDouble();
-        System.out.println("Ingresa el lado 2: ");
-        double l2=leer.nextDouble();
+        System.out.println("Ingresa las medidadas de los lados: ");
+        double lado=leer.nextDouble();
                 
-        System.out.println("El area del cuadrado es: "+l1*l2);
+        System.out.println("El area del cuadrado es: "+lado*lado);
     }
 }
